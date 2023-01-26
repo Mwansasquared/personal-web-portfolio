@@ -1,0 +1,23 @@
+
+.footer {
+    position: relative;
+    background-color: rgb(189, 195, 199);
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.Socials {
+    list-style: none;
+}
+  
+.socials-list {
+    display: inline;
+    padding: 20px;
+}
+
+
+/* .copyright {
+    text-align: center;
+} */

@@ -1,0 +1,19 @@
+.projects-section {
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    column-gap: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding-left: 30px;
+    height: 500px;
+    width: 400px;
+    background: #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 5px 5px 5px 5px rgba(0.26, 0.26, 0.26, 0.26); */
+}
