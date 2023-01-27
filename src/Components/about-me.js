@@ -1,7 +1,6 @@
 import React from "react";
 import '../styling/about-me.css';
 // import images from '../images/images.jpeg';
-import image from '../images/images.png'
 
 class AboutMe extends React.Component {
     render () {
@@ -16,8 +15,8 @@ class AboutMe extends React.Component {
                 
                 <div className="about-me-section">
                     <h2>Here's little bit about me</h2>
-                    <p>
-                        I'm a software developer with a Bachelor's degree in Computer Engineering from the Copperbelt University.
+                    <p className="about-me-description">
+                        I'm a software developer with a Bachelor's degree in Computer Engineering from the Copperbelt University.<br />
                         I love writing and reading, and all things tech.   
                     </p>
                 </div>

@@ -28,6 +28,11 @@
     justify-content: center;
 }
 
+.about-me-description {
+    text-align: center;
+    word-wrap: normal;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     #about-me {
       animation: about-me-animation infinite 5s ease-in-out;

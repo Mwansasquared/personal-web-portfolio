@@ -6,8 +6,8 @@ class Projects extends React.Component {
         return (
             <div id="projects">
                 <h2>Projects</h2>
-                <p>There are a couple of things I have worked on, some of which are as a result of where I have worked and are private projects.<br />
-                    Interested in seeing some of my works? See more on my <a href="https://github.com/Mwansasquared" target="_blank" rel="noopener noreferrer">github.</a>
+                <p className="projects-description">There are a couple of things I have worked on, some of which are as a result of where I have worked and are private projects.<br />
+                    Interested in seeing some of my works? See more on my <a href="https://github.com/Mwansasquared" target="_blank" rel="noopener noreferrer">github profile</a>.
                 </p>
                 <div className="projects-section">
                     <section className="projects">
@@ -15,12 +15,12 @@ class Projects extends React.Component {
                         <p>RFID driving licence web app built with javascript.</p>
                     </section>
                     <section className="projects">
-                        <h3>Palinndrome Checker</h3>
+                        <h3>Palindrome Checker</h3>
                         <p>Simple palindrome checker built with plain javascript</p>
                     </section>
                     <section className="projects">
                         <h3>Portfolio</h3>
-                        <p>simple Portfolio website built using ReactJS</p>
+                        <p>Simple portfolio website built using ReactJS</p>
                     </section>
                 </div>
             </div>
