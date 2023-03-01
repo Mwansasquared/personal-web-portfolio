@@ -10,7 +10,7 @@ import AboutMe from './Components/about-me';
 class App extends React.Component {
   render () {
     return (
-      <div className='App'>
+      <div className='App bg-slate-200'>
 
         <Header />
         <AboutMe />
