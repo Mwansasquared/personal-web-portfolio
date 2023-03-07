@@ -3,7 +3,7 @@ import React from "react";
 class Header extends React.Component {
     render () {
         return (
-            <header className="header flex-auto bg-slate-300 border-gray-200 h-16 py-2 sticky top-0">
+            <header className="header flex-auto bg-slate-300 border-gray-200 h-16 py-2 sticky top-0 p-2">
                 <div>
                         <nav className="top-nv">
                             <ul className="flex justify-around">

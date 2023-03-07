@@ -1,11 +1,10 @@
 import React from "react";
-import '../styling/about-me.css';
 import images from '../images/images.jpeg';
 
 class AboutMe extends React.Component {
     render () {
         return (
-            <div className="about-me-component grid grid-rows-[200px_minmax(1px,_1fr)_100px] grid-flow-col h-45 justify-items-center gap-4 p-20">
+            <div className="about-me-component grid grid-rows-[200px_minmax(1px,_1fr)_100px] grid-flow-col h-45 justify-items-center gap-4 p-10" id="aboutMe">
                 <div className="flex-auto justify-center p-2 animate-bounce font-normal text-lg mobile:font-medium mobile:text-2xl">
                     <p className="top-80" id="about-me text-center">
                         Hello there, nice to see you here! Do enjoy your visit, and hopefully you learn a few things from here.
