@@ -3,9 +3,9 @@ import React from "react";
 class Contact extends React.Component {
     render () {
         return (
-            <div className="p-10 grid grid-cols-1 mobile:grid grid-rows-2" id="contact">
-                <div className="contact-content" id="contact-call">
-                    <p className="-z-80">Intrigued and want to get to know me more?
+            <div className="p-8 flex flex-col mobileAndTablet:flex-row gap-8 justify-items-center" id="contact">
+                <div className="contact-content pb-10" id="contact-call">
+                    <p className="">Intrigued and want to get to know me more?
                         Send me a message.
                         Let's get talking, I'd love to hear from you.
                     </p>
