@@ -5,10 +5,11 @@ module.exports = {
   ],
   theme: {
     screens: {
+      // 'smallScreens': '',
       'mobileAndTablet': '640px',
       // => @media (min-width: 576px) { ... }
 
-      'tablet': '960px',
+      'laptop': '900px',
       // => @media (min-width: 960px) { ... }
 
       'largeScreen': '1440px',
